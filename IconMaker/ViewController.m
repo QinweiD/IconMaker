@@ -87,7 +87,6 @@
     NSString *scrPath = [self getPathWithfileString:src];
     NSURL *srcURL = [NSURL fileURLWithPath:scrPath];
     if (!srcURL) {
-//        [self.results addObject:[NSString stringWithFormat:@"URL为空 %@",src]];
         return NO;
     }
     
