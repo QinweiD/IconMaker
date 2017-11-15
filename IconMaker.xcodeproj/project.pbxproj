@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047DBC3F1FB3015E0042C518 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047DBC3E1FB3015E0042C518 /* AppDelegate.m */; };
+		047DBC421FB3015E0042C518 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047DBC411FB3015E0042C518 /* ViewController.m */; };
+		047DBC441FB3015F0042C518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047DBC431FB3015F0042C518 /* Assets.xcassets */; };
+		047DBC471FB3015F0042C518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047DBC451FB3015F0042C518 /* Main.storyboard */; };
+		047DBC4A1FB3015F0042C518 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047DBC491FB3015F0042C518 /* main.m */; };
+		047DBC551FB3015F0042C518 /* IconMakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047DBC541FB3015F0042C518 /* IconMakerTests.m */; };
+		047DBC601FB301600042C518 /* IconMakerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047DBC5F1FB301600042C518 /* IconMakerUITests.m */; };
+		04F222241FBA883B004D2C94 /* Auto_icon.sh in Resources */ = {isa = PBXBuildFile; fileRef = 04F222231FBA883B004D2C94 /* Auto_icon.sh */; };
+		04F222261FBAE012004D2C94 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 04F222251FBADDB3004D2C94 /* Contents.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		047DBC511FB3015F0042C518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047DBC321FB3015E0042C518 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047DBC391FB3015E0042C518;
+			remoteInfo = IconMaker;
+		};
+		047DBC5C1FB3015F0042C518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047DBC321FB3015E0042C518 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047DBC391FB3015E0042C518;
+			remoteInfo = IconMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047DBC3A1FB3015E0042C518 /* IconMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		047DBC3D1FB3015E0042C518 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		047DBC3E1FB3015E0042C518 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		047DBC401FB3015E0042C518 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		047DBC411FB3015E0042C518 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		047DBC431FB3015F0042C518 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047DBC461FB3015F0042C518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		047DBC481FB3015F0042C518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047DBC491FB3015F0042C518 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		047DBC501FB3015F0042C518 /* IconMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047DBC541FB3015F0042C518 /* IconMakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconMakerTests.m; sourceTree = "<group>"; };
+		047DBC561FB3015F0042C518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047DBC5B1FB3015F0042C518 /* IconMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047DBC5F1FB301600042C518 /* IconMakerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconMakerUITests.m; sourceTree = "<group>"; };
+		047DBC611FB301600042C518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F222231FBA883B004D2C94 /* Auto_icon.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = Auto_icon.sh; sourceTree = "<group>"; };
+		04F222251FBADDB3004D2C94 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047DBC371FB3015E0042C518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047DBC4D1FB3015F0042C518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047DBC581FB3015F0042C518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047DBC311FB3015E0042C518 = {
+			isa = PBXGroup;
+			children = (
+				047DBC3C1FB3015E0042C518 /* IconMaker */,
+				047DBC531FB3015F0042C518 /* IconMakerTests */,
+				047DBC5E1FB3015F0042C518 /* IconMakerUITests */,
+				047DBC3B1FB3015E0042C518 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		047DBC3B1FB3015E0042C518 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047DBC3A1FB3015E0042C518 /* IconMaker.app */,
+				047DBC501FB3015F0042C518 /* IconMakerTests.xctest */,
+				047DBC5B1FB3015F0042C518 /* IconMakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047DBC3C1FB3015E0042C518 /* IconMaker */ = {
+			isa = PBXGroup;
+			children = (
+				047DBC3D1FB3015E0042C518 /* AppDelegate.h */,
+				047DBC3E1FB3015E0042C518 /* AppDelegate.m */,
+				047DBC401FB3015E0042C518 /* ViewController.h */,
+				047DBC411FB3015E0042C518 /* ViewController.m */,
+				047DBC431FB3015F0042C518 /* Assets.xcassets */,
+				047DBC451FB3015F0042C518 /* Main.storyboard */,
+				047DBC481FB3015F0042C518 /* Info.plist */,
+				047DBC491FB3015F0042C518 /* main.m */,
+				04F222231FBA883B004D2C94 /* Auto_icon.sh */,
+				04F222251FBADDB3004D2C94 /* Contents.json */,
+			);
+			path = IconMaker;
+			sourceTree = "<group>";
+		};
+		047DBC531FB3015F0042C518 /* IconMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				047DBC541FB3015F0042C518 /* IconMakerTests.m */,
+				047DBC561FB3015F0042C518 /* Info.plist */,
+			);
+			path = IconMakerTests;
+			sourceTree = "<group>";
+		};
+		047DBC5E1FB3015F0042C518 /* IconMakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				047DBC5F1FB301600042C518 /* IconMakerUITests.m */,
+				047DBC611FB301600042C518 /* Info.plist */,
+			);
+			path = IconMakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047DBC391FB3015E0042C518 /* IconMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047DBC641FB301600042C518 /* Build configuration list for PBXNativeTarget "IconMaker" */;
+			buildPhases = (
+				047DBC361FB3015E0042C518 /* Sources */,
+				047DBC371FB3015E0042C518 /* Frameworks */,
+				047DBC381FB3015E0042C518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IconMaker;
+			productName = IconMaker;
+			productReference = 047DBC3A1FB3015E0042C518 /* IconMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		047DBC4F1FB3015F0042C518 /* IconMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047DBC671FB301600042C518 /* Build configuration list for PBXNativeTarget "IconMakerTests" */;
+			buildPhases = (
+				047DBC4C1FB3015F0042C518 /* Sources */,
+				047DBC4D1FB3015F0042C518 /* Frameworks */,
+				047DBC4E1FB3015F0042C518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047DBC521FB3015F0042C518 /* PBXTargetDependency */,
+			);
+			name = IconMakerTests;
+			productName = IconMakerTests;
+			productReference = 047DBC501FB3015F0042C518 /* IconMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		047DBC5A1FB3015F0042C518 /* IconMakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047DBC6A1FB301600042C518 /* Build configuration list for PBXNativeTarget "IconMakerUITests" */;
+			buildPhases = (
+				047DBC571FB3015F0042C518 /* Sources */,
+				047DBC581FB3015F0042C518 /* Frameworks */,
+				047DBC591FB3015F0042C518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047DBC5D1FB3015F0042C518 /* PBXTargetDependency */,
+			);
+			name = IconMakerUITests;
+			productName = IconMakerUITests;
+			productReference = 047DBC5B1FB3015F0042C518 /* IconMakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047DBC321FB3015E0042C518 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Qinwei;
+				TargetAttributes = {
+					047DBC391FB3015E0042C518 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					047DBC4F1FB3015F0042C518 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 047DBC391FB3015E0042C518;
+					};
+					047DBC5A1FB3015F0042C518 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 047DBC391FB3015E0042C518;
+					};
+				};
+			};
+			buildConfigurationList = 047DBC351FB3015E0042C518 /* Build configuration list for PBXProject "IconMaker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047DBC311FB3015E0042C518;
+			productRefGroup = 047DBC3B1FB3015E0042C518 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047DBC391FB3015E0042C518 /* IconMaker */,
+				047DBC4F1FB3015F0042C518 /* IconMakerTests */,
+				047DBC5A1FB3015F0042C518 /* IconMakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047DBC381FB3015E0042C518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F222261FBAE012004D2C94 /* Contents.json in Resources */,
+				04F222241FBA883B004D2C94 /* Auto_icon.sh in Resources */,
+				047DBC441FB3015F0042C518 /* Assets.xcassets in Resources */,
+				047DBC471FB3015F0042C518 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047DBC4E1FB3015F0042C518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047DBC591FB3015F0042C518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047DBC361FB3015E0042C518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047DBC421FB3015E0042C518 /* ViewController.m in Sources */,
+				047DBC4A1FB3015F0042C518 /* main.m in Sources */,
+				047DBC3F1FB3015E0042C518 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047DBC4C1FB3015F0042C518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047DBC551FB3015F0042C518 /* IconMakerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047DBC571FB3015F0042C518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047DBC601FB301600042C518 /* IconMakerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		047DBC521FB3015F0042C518 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047DBC391FB3015E0042C518 /* IconMaker */;
+			targetProxy = 047DBC511FB3015F0042C518 /* PBXContainerItemProxy */;
+		};
+		047DBC5D1FB3015F0042C518 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047DBC391FB3015E0042C518 /* IconMaker */;
+			targetProxy = 047DBC5C1FB3015F0042C518 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		047DBC451FB3015F0042C518 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047DBC461FB3015F0042C518 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047DBC621FB301600042C518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		047DBC631FB301600042C518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		047DBC651FB301600042C518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L4B792D68C;
+				INFOPLIST_FILE = IconMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dudu.IconMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		047DBC661FB301600042C518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L4B792D68C;
+				INFOPLIST_FILE = IconMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dudu.IconMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		047DBC681FB301600042C518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L4B792D68C;
+				INFOPLIST_FILE = IconMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dudu.IconMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IconMaker.app/Contents/MacOS/IconMaker";
+			};
+			name = Debug;
+		};
+		047DBC691FB301600042C518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L4B792D68C;
+				INFOPLIST_FILE = IconMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dudu.IconMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IconMaker.app/Contents/MacOS/IconMaker";
+			};
+			name = Release;
+		};
+		047DBC6B1FB301600042C518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L4B792D68C;
+				INFOPLIST_FILE = IconMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dudu.IconMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IconMaker;
+			};
+			name = Debug;
+		};
+		047DBC6C1FB301600042C518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L4B792D68C;
+				INFOPLIST_FILE = IconMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dudu.IconMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IconMaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047DBC351FB3015E0042C518 /* Build configuration list for PBXProject "IconMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047DBC621FB301600042C518 /* Debug */,
+				047DBC631FB301600042C518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047DBC641FB301600042C518 /* Build configuration list for PBXNativeTarget "IconMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047DBC651FB301600042C518 /* Debug */,
+				047DBC661FB301600042C518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047DBC671FB301600042C518 /* Build configuration list for PBXNativeTarget "IconMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047DBC681FB301600042C518 /* Debug */,
+				047DBC691FB301600042C518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047DBC6A1FB301600042C518 /* Build configuration list for PBXNativeTarget "IconMakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047DBC6B1FB301600042C518 /* Debug */,
+				047DBC6C1FB301600042C518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047DBC321FB3015E0042C518 /* Project object */;
+}
